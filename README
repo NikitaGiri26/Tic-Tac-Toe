@@ -1,0 +1,55 @@
+# 🎮 Tic Tac Toe Game
+
+A simple and interactive **Tic Tac Toe** game built with **Python and Streamlit**. Play against a friend on a 3x3 grid and enjoy this classic two-player game directly in your browser!
+
+## 🔗 Live Demo
+
+[🎮 Click here to play the game](YOUR_STREAMLIT_APP_LINK)
+
+---
+
+## 📌 Features
+
+- ✔️ Classic 3x3 Tic Tac Toe board
+- 👥 Two-player mode
+- ❌ X and ⭕ O player turns
+- 🚫 Prevents players from selecting an occupied position
+- 🧠 Win detection logic
+- 🤝 Draw detection logic
+- 🔄 Game reset button
+- 🌐 Interactive web-based interface
+
+---
+
+## 💻 Technologies Used
+
+- **Python** – Game logic
+- **Streamlit** – Web interface and application framework
+- **GitHub** – Source code repository
+- **Streamlit Community Cloud** – Application deployment
+
+---
+
+## 🧠 Game Logic
+
+The game uses a **3x3 two-dimensional list** to represent the Tic Tac Toe board.
+
+The game:
+
+1. Creates the board with positions 1–9.
+2. Allows Player X and Player O to select positions.
+3. Prevents players from selecting an already occupied position.
+4. Checks rows, columns, and diagonals for a winner.
+5. Detects a draw when all positions are occupied.
+6. Allows the players to reset and start a new game.
+
+---
+
+## 📂 Project Structure
+
+```text
+Tic-Tac-Toe/
+│
+├── app.py
+├── requirements.txt
+└── README.md
